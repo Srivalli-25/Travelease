@@ -1,0 +1,247 @@
+import AndamanNicobar from "../assets/Andaman.jpg";
+import Bali from "../assets/Bali.jpg";
+import Bandhavgarh from "../assets/Bandhavgarh.jpg";
+import Darjeeling from "../assets/Darjeeling.jpg";
+import Dubai from "../assets/Dubai.jpg";
+import Gokarna from "../assets/gokarna.jpg";
+import Hampi from "../assets/Hampi.jpg";
+import Jimcorbett from "../assets/jimcorbettnationalpark.jpg";
+import Kaziranga from "../assets/Kaziranga.jpg";
+import Khajuraho from "../assets/Khajuraho.jpg";
+import Leh from "../assets/LehLadakh.jpg";
+import Munnar from "../assets/Munnar.jpg";
+import Ooty from "../assets/Ooty.jpg";
+import Pondicherry from "../assets/Pondicherry.jpg";
+import Ranthambore from "../assets/Ranthambore.jpg";
+import Rome from "../assets/Rome.jpg";
+import Tokyo from "../assets/Tokyo.jpg";
+import Udaipur from "../assets/udaipur.jpg";
+import Varanasi from "../assets/Varanasi.jpg";
+import Varkala from "../assets/varkala.jpg";
+export const destinations = [
+  {
+    id: "goa",
+    name: "Goa",
+    category: "Beaches",
+    country: "India",
+    description: "Relax on sunny beaches and enjoy beautiful sunsets.",
+    price: 7999,
+    image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    id: "manali",
+    name: "Manali",
+    category: "Mountains",
+    country: "India",
+    description: "Experience mountain views and refreshing nature.",
+    price: 9999,
+    image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    id: "agra",
+    name: "Agra",
+    category: "Historical",
+    country: "India",
+    description: "Explore famous monuments and India's rich history.",
+    price: 5999,
+    image: "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    id: "kerala",
+    name: "Kerala",
+    category: "Wildlife",
+    country: "India",
+    description: "Discover green landscapes and peaceful backwaters.",
+    price: 8999,
+    image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    id: "paris",
+    name: "Paris",
+    category: "International",
+    country: "France",
+    description: "Discover iconic landmarks and charming streets.",
+    price: 49999,
+    image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    id: "andamannicobar",
+    name: "Andaman and Nicobar Islands",
+    category: "Beaches",
+    country: "India",
+    description: "Enjoy turquoise waters, coral reefs, and island adventures.",
+    price: 14999,
+    image: AndamanNicobar,
+  },
+  {
+    id: "bali",
+    name: "Bali",
+    category: "International",
+    country: "Indonesia",
+    description: "Explore tropical beaches, rice terraces, and ancient temples.",
+    price: 24999,
+    image: Bali,
+  },
+  {
+    id: "bandhavgarh",
+    name: "Bandhavgarh",
+    category: "Wildlife",
+    country: "India",
+    description: "Discover forest trails and the famous Bengal tiger reserve.",
+    price: 10999,
+    image: Bandhavgarh,
+  },
+  {
+    id: "darjeeling",
+    name: "Darjeeling",
+    category: "Mountains",
+    country: "India",
+    description: "Admire Himalayan views, tea gardens, and the toy train.",
+    price: 8999,
+    image: Darjeeling,
+  },
+  {
+    id: "dubai",
+    name: "Dubai",
+    category: "International",
+    country: "United Arab Emirates",
+    description: "Experience modern landmarks, desert safaris, and shopping.",
+    price: 34999,
+    image: Dubai,
+  },
+  {
+    id: "gokarna",
+    name: "Gokarna",
+    category: "Beaches",
+    country: "India",
+    description: "Relax on quiet beaches and explore beautiful coastal trails.",
+    price: 6999,
+    image: Gokarna,
+  },
+  {
+    id: "hampi",
+    name: "Hampi",
+    category: "Historical",
+    country: "India",
+    description: "Experience ancient temples, stone ruins, and historic landscapes.",
+    price: 5999,
+    image: Hampi,
+  },
+  {
+    id: "jimcorbett",
+    name: "Jim Corbett National Park",
+    category: "Wildlife",
+    country: "India",
+    description: "Discover forest safaris, diverse wildlife, and river scenery.",
+    price: 9999,
+    image: Jimcorbett,
+  },
+  {
+    id: "kaziranga",
+    name: "Kaziranga National Park",
+    category: "Wildlife",
+    country: "India",
+    description: "Explore grasslands famous for the one-horned rhinoceros.",
+    price: 12999,
+    image: Kaziranga,
+  },
+  {
+    id: "khajuraho",
+    name: "Khajuraho",
+    category: "Historical",
+    country: "India",
+    description: "Admire remarkable temple architecture and intricate carvings.",
+    price: 6999,
+    image: Khajuraho,
+  },
+  {
+    id: "lehladakh",
+    name: "Leh Ladakh",
+    category: "Mountains",
+    country: "India",
+    description: "Experience dramatic mountain passes, lakes, and monasteries.",
+    price: 17999,
+    image: Leh,
+  },
+  {
+    id: "munnar",
+    name: "Munnar",
+    category: "Mountains",
+    country: "India",
+    description: "Walk through rolling tea gardens and misty green hills.",
+    price: 7999,
+    image: Munnar,
+  },
+  {
+    id: "ooty",
+    name: "Ooty",
+    category: "Mountains",
+    country: "India",
+    description: "Enjoy cool weather, botanical gardens, and scenic hills.",
+    price: 6999,
+    image: Ooty,
+  },
+  {
+    id: "pondicherry",
+    name: "Pondicherry",
+    category: "Beaches",
+    country: "India",
+    description: "Explore seaside promenades, colorful streets, and cafes.",
+    price: 6999,
+    image: Pondicherry,
+  },
+  {
+    id: "ranthambore",
+    name: "Ranthambore",
+    category: "Wildlife",
+    country: "India",
+    description: "Experience wildlife safaris near historic fort ruins.",
+    price: 11999,
+    image: Ranthambore,
+  },
+  {
+    id: "rome",
+    name: "Rome",
+    category: "International",
+    country: "Italy",
+    description: "Discover the Colosseum, ancient ruins, and Italian culture.",
+    price: 54999,
+    image: Rome,
+  },
+  {
+    id: "tokyo",
+    name: "Tokyo",
+    category: "International",
+    country: "Japan",
+    description: "Experience vibrant city life, historic shrines, and Japanese cuisine.",
+    price: 59999,
+    image: Tokyo,
+  },
+  {
+    id: "udaipur",
+    name: "Udaipur",
+    category: "Historical",
+    country: "India",
+    description: "Discover royal palaces, heritage sites, and beautiful lakes.",
+    price: 8999,
+    image: Udaipur,
+  },
+  {
+    id: "varanasi",
+    name: "Varanasi",
+    category: "Historical",
+    country: "India",
+    description: "Experience ancient temples, river ghats, and cultural traditions.",
+    price: 5999,
+    image: Varanasi,
+  },
+  {
+    id: "varkala",
+    name: "Varkala",
+    category: "Beaches",
+    country: "India",
+    description: "Relax beside dramatic coastal cliffs and beautiful sandy beaches.",
+    price: 7499,
+    image: Varkala,
+  }
+];
